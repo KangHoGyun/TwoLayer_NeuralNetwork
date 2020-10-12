@@ -53,7 +53,7 @@ class Two_Layer:
 
     def learn(self, lr, epoch):
         iris = load_iris()
-
+        #asd
         X = iris.data  # iris data input
         y = iris.target  # iris target (label)
         y_name = iris.target_names  # iris target name
